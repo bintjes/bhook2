@@ -1,0 +1,16 @@
+/* tslint:disable:no-unused-variable */
+
+import { TestBed, async, inject } from '@angular/core/testing';
+import { BhookpouchService } from './bhookpouch.service';
+
+describe('Service: Bhookpouch', () => {
+  beforeEach(() => {
+    TestBed.configureTestingModule({
+      providers: [BhookpouchService]
+    });
+  });
+
+  it('should ...', inject([BhookpouchService], (service: BhookpouchService) => {
+    expect(service).toBeTruthy();
+  }));
+});

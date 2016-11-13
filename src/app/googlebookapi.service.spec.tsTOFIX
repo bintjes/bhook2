@@ -1,0 +1,16 @@
+/* tslint:disable:no-unused-variable */
+
+import { TestBed, async, inject } from '@angular/core/testing';
+import { GooglebookapiService } from './googlebookapi.service';
+
+describe('Service: Googlebookapi', () => {
+  beforeEach(() => {
+    TestBed.configureTestingModule({
+      providers: [GooglebookapiService]
+    });
+  });
+
+  it('should ...', inject([GooglebookapiService], (service: GooglebookapiService) => {
+    expect(service).toBeTruthy();
+  }));
+});
